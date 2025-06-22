@@ -10,6 +10,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
+  width: 100%;
+  min-height: 100vh;
 }
 
 ul {
@@ -105,18 +107,11 @@ ul {
 }
 
 .email-tel {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
   text-decoration: none;
-  margin-right: 0;
+  color: #434455;
+  display: block;
+  padding: 24px 0;
 }
-
 .email-tel:hover,
 .email-tel:focus {
   color: #404bbf;
@@ -135,35 +130,31 @@ ul {
 }
 
 .title {
-  display: flex;
-  max-width: 496px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  color: #ffffff;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  height: 120px;
   text-align: center;
-  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
+
 .button {
-  display: block;
-  align-items: center;
-  min-width: 169px;
-  height: 56px;
-  border: none;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  border-radius: 4px;
-  letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   background-color: #4d5ae5;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  margin: auto;
-  margin-top: 48px;
+  border: none;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .button:hover,
@@ -299,7 +290,7 @@ ul {
 }
 
 .footer-p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;

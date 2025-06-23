@@ -249,7 +249,7 @@ ul {
 .team-block .paragraph {
   text-align: center;
 }
-
+/*1*/
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;

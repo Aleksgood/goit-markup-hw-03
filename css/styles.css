@@ -257,9 +257,7 @@ img{
 
 .portfolio-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
-  row-gap: 48px;
 } 
 .portfolio-ul-li {
  width: calc((100% - 48px) / 3);

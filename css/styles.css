@@ -159,7 +159,6 @@ ul {
 
 .button:hover,
 .button:focus {
-  cursor: pointer;
   background: #404bbf;
 }
 
@@ -249,7 +248,7 @@ ul {
 .team-block .paragraph {
   text-align: center;
 }
-/*1*/
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -261,7 +260,7 @@ ul {
 .portfolio-ul-li {
  width: calc((100% - 48px) / 3);
 }
-.img-cont {
+.img {
   display: block;
 }
 
